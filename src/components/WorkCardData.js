@@ -7,6 +7,20 @@ import pro5 from "../assets/weatherapp.png"
 const ProjectCardData = [
     {
         imgsrc: pro1,
+        title: "Ludo King Clone",
+        text: "",
+        view: "",
+        source: "https://github.com/ddheer29/ludo_go"
+    },
+    {
+        imgsrc: pro1,
+        title: "Candy Crush Clone",
+        text: "",
+        view: "",
+        source: "hhttps://github.com/ddheer29/candy_crushed"
+    },
+    {
+        imgsrc: pro1,
         title: "Blogging Website",
         text: "Our platform is designed to provide a space for individuals to share their thoughts and ideas with the world through the power of blogging. Our website offers a user-friendly interface, making it easy for users to create and publish blog posts, as well as interact with other bloggers through commenting and sharing features.",
         view: "",
