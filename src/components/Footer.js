@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaGithub } from 'react-icons/fa'
+import { IoIosAirplane } from "react-icons/io";
 import { Link } from 'react-router-dom'
 import "./FooterStyles.css"
 
@@ -13,8 +14,10 @@ const Footer = () => {
                             color:
                                 "#fff", marginRight: "2rem"
                         }} />
-                        <div>
+                        <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: 12 }}>
                             <p>Delhi, India</p>
+                            <IoIosAirplane size={20} style={{ color: "#fff" }} />
+                            <p>Hyderabad, India</p>
                         </div>
                     </div>
                     <div className="phone">
@@ -22,17 +25,17 @@ const Footer = () => {
                             <FaPhone size={20} style={{
                                 color:
                                     "#fff", marginRight: "2rem"
-                            }} />9211-9211-69
+                            }} />+91 9318464610
                         </h4>
                     </div>
                     <div className="phone">
                         <h4>
-                        <Link to="mailto:divyangdheer@hotmail.com" target='_blank' >
-                            <FaMailBulk size={20} style={{
-                                color:
-                                    "#fff", marginRight: "2rem"
-                            }} />divyangdheer@hotmail.com
-                        </Link>
+                            <Link to="mailto:divyangdheer11@gmail.com" >
+                                <FaMailBulk size={20} style={{
+                                    color:
+                                        "#fff", marginRight: "2rem"
+                                }} />divyangdheer11@gmail.com
+                            </Link>
                         </h4>
                     </div>
                 </div>
@@ -40,26 +43,26 @@ const Footer = () => {
                     <h4>Follow me</h4>
                     <p>Connect with me on my social media handle.</p>
                     <div className="social">
-                        <Link to='https://www.facebook.com/'
+                        <Link to='https://www.github.com/ddheer29'
                             className="facebook social" target='_blank'>
-                            <FaFacebook size={20} style={{
-                            color: "#fff", marginRight: "2rem",
-                            cursor: "pointer"
-                        }}/>
-                        </Link>
-                        <Link to="https://twitter.com/d_dheer29"
-                            className="facebook social" target='_blank'>
-                            <FaTwitter size={20} style={{
-                            color: "#fff", marginRight: "2rem",
-                            cursor: "pointer"
-                        }} />
+                            <FaGithub size={20} style={{
+                                color: "#fff", marginRight: "2rem",
+                                cursor: "pointer"
+                            }} />
                         </Link>
                         <Link to="https://www.linkedin.com/in/divyang-dheer-5731b51b3/"
                             className="facebook social" target='_blank'>
                             <FaLinkedin size={20} style={{
-                            color: "#fff", marginRight: "2rem",
-                            cursor: "pointer"
-                        }} />
+                                color: "#fff", marginRight: "2rem",
+                                cursor: "pointer"
+                            }} />
+                        </Link>
+                        <Link to="https://twitter.com/ddheer22"
+                            className="facebook social" target='_blank'>
+                            <FaTwitter size={20} style={{
+                                color: "#fff", marginRight: "2rem",
+                                cursor: "pointer"
+                            }} />
                         </Link>
                     </div>
                 </div>
