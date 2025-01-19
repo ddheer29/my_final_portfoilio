@@ -1,5 +1,4 @@
 import React from "react";
-import WorkCard from "./WorkCard";
 import ExperienceCardData from "./ExperienceCardData";
 import "./WorkCardStyles.css";
 import ExperienceCard from "./ExperienceCard";
